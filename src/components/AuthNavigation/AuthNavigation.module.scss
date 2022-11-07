@@ -1,0 +1,49 @@
+.authNavList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+
+  padding: 0;
+  margin: auto 0;
+}
+
+.authNavItem {
+  font: inherit;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  padding-left: 14px;
+
+  display: flex;
+  align-items: center;
+  width: 216px;
+  height: 56px;
+
+  color: #ffffff;
+
+  &:focus {
+    color: #1f3349;
+    background-image: url(../../images/nav/nav-bg.png);
+  }
+}
+
+.authNavLink {
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 137%;
+}
+
+// NavLink.active {
+//   background-image: url(../../images/nav/nav-bg.png);
+//   color: #1f3349;
+// }
+
+// .contactsSpan {
+//   padding-left: 14px;
+// }

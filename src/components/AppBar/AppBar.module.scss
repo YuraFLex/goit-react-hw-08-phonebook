@@ -1,0 +1,14 @@
+.appBar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  min-width: 236px;
+  height: 100vh;
+
+  background-image: url(../../images/appBar/app-bar-bg.svg);
+}
+
+.nav {
+  display: flex;
+}
